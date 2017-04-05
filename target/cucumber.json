@@ -1,0 +1,126 @@
+[
+  {
+    "id": "login-into-americangolf-application",
+    "tags": [
+      {
+        "name": "@LoginUser",
+        "line": 1
+      }
+    ],
+    "description": "",
+    "name": "Login into americangolf Application",
+    "keyword": "Feature",
+    "line": 3,
+    "elements": [
+      {
+        "id": "login-into-americangolf-application;user-validates-login-functionality-for-americangolf-application",
+        "description": "",
+        "name": "User Validates login functionality for americangolf application",
+        "keyword": "Scenario",
+        "line": 4,
+        "steps": [
+          {
+            "result": {
+              "duration": 25754212930,
+              "status": "passed"
+            },
+            "name": "User is on americangolf home page by launching Login URL",
+            "keyword": "Given ",
+            "line": 5,
+            "match": {
+              "location": "AmericangolfLoginUser.UserisonamericangolfhomepagebylaunchingLoginURL()"
+            }
+          },
+          {
+            "result": {
+              "duration": 1563306985,
+              "status": "passed"
+            },
+            "name": "User enter loginusername and loginpassword",
+            "keyword": "When ",
+            "line": 6,
+            "match": {
+              "location": "AmericangolfLoginUser.Userenterloginusernameandloginpassword()"
+            }
+          },
+          {
+            "result": {
+              "duration": 13653000,
+              "status": "passed"
+            },
+            "name": "User Clicks on login button",
+            "keyword": "And ",
+            "line": 7,
+            "match": {
+              "location": "AmericangolfLoginUser.UserClicksonloginbutton()"
+            }
+          }
+        ],
+        "type": "scenario"
+      }
+    ],
+    "uri": "A_LoginUser.feature"
+  },
+  {
+    "id": "user-able-to-landed-on-the-americangolf-home-page",
+    "tags": [
+      {
+        "name": "@Home",
+        "line": 1
+      }
+    ],
+    "description": "",
+    "name": "User able to Landed on the americangolf home page",
+    "keyword": "Feature",
+    "line": 2,
+    "elements": [
+      {
+        "id": "user-able-to-landed-on-the-americangolf-home-page;user-able-to-landed-on-the-americangolf-home-page",
+        "description": "",
+        "name": "User able to Landed on the americangolf home page",
+        "keyword": "Scenario",
+        "line": 3,
+        "steps": [
+          {
+            "result": {
+              "duration": 15427976,
+              "status": "passed"
+            },
+            "name": "User is Landed on the americangolf home page",
+            "keyword": "Given ",
+            "line": 4,
+            "match": {
+              "location": "AmericangolfHome.userisUserisLandedontheamericangolfhomepage()"
+            }
+          },
+          {
+            "result": {
+              "duration": 2866287838,
+              "status": "passed"
+            },
+            "name": "user clicks on the Home button",
+            "keyword": "When ",
+            "line": 5,
+            "match": {
+              "location": "AmericangolfHome.userclicksontheHomebutton()"
+            }
+          },
+          {
+            "result": {
+              "duration": 3950990035,
+              "status": "passed"
+            },
+            "name": "user clicks on the Golfclub button",
+            "keyword": "And ",
+            "line": 6,
+            "match": {
+              "location": "AmericangolfHome.userclicksontheGolfclubbutton()"
+            }
+          }
+        ],
+        "type": "scenario"
+      }
+    ],
+    "uri": "B_Home.feature"
+  }
+]

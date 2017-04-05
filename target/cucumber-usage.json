@@ -1,0 +1,110 @@
+[
+  {
+    "source": "^User is Landed on the americangolf home page$",
+    "steps": [
+      {
+        "name": "User is Landed on the americangolf home page",
+        "aggregatedDurations": {
+          "median": 0.015427976,
+          "average": 0.015427976
+        },
+        "durations": [
+          {
+            "duration": 0.015427976,
+            "location": "B_Home.feature:4"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "^user clicks on the Golfclub button$",
+    "steps": [
+      {
+        "name": "user clicks on the Golfclub button",
+        "aggregatedDurations": {
+          "median": 3.950990035,
+          "average": 3.950990035
+        },
+        "durations": [
+          {
+            "duration": 3.950990035,
+            "location": "B_Home.feature:6"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "^user clicks on the Home button$",
+    "steps": [
+      {
+        "name": "user clicks on the Home button",
+        "aggregatedDurations": {
+          "median": 2.866287838,
+          "average": 2.866287838
+        },
+        "durations": [
+          {
+            "duration": 2.866287838,
+            "location": "B_Home.feature:5"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "^User Clicks on login button$",
+    "steps": [
+      {
+        "name": "User Clicks on login button",
+        "aggregatedDurations": {
+          "median": 0.013653,
+          "average": 0.013653
+        },
+        "durations": [
+          {
+            "duration": 0.013653,
+            "location": "A_LoginUser.feature:7"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "^User enter loginusername and loginpassword$",
+    "steps": [
+      {
+        "name": "User enter loginusername and loginpassword",
+        "aggregatedDurations": {
+          "median": 1.563306985,
+          "average": 1.563306985
+        },
+        "durations": [
+          {
+            "duration": 1.563306985,
+            "location": "A_LoginUser.feature:6"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "^User is on americangolf home page by launching Login URL$",
+    "steps": [
+      {
+        "name": "User is on americangolf home page by launching Login URL",
+        "aggregatedDurations": {
+          "median": 25.75421293,
+          "average": 25.75421293
+        },
+        "durations": [
+          {
+            "duration": 25.75421293,
+            "location": "A_LoginUser.feature:5"
+          }
+        ]
+      }
+    ]
+  }
+]
