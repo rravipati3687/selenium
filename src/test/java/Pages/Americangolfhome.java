@@ -33,10 +33,12 @@ public class Americangolfhome extends AmericangolfUserLogin{
 		public void clickBrandbutton(){
 						
 			Selenium.click("Brandbutton");
+			Selenium.click("Golfsbutton");
 		}
 		
 		public void clickGolfsbutton(){
 			
+			Selenium.click("Golfsbutton");
 			Selenium.click("Golfsbutton");
 		}
 }
