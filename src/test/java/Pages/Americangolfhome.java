@@ -18,7 +18,7 @@ public class Americangolfhome extends AmericangolfUserLogin{
 		try{
 			//Selenium.checkAlert();
 			
-			////WebDriverWait wait=new WebDriverWait(Selenium.driver,30);
+			WebDriverWait wait=new WebDriverWait(Selenium.driver,30);
 			//wait.until(ExpectedConditions.titleContains("Facebook"));
 			Assert.assertEquals("Login", Selenium.driver.getTitle());
 		}
